@@ -24,7 +24,7 @@ function App() {
       minSize={300} 
       >
 
-     <div className="h-100 py-1 position-relative">
+     <div className="code h-100 py-1 position-relative">
 
       <div className="dropdown position-absolute end-0 me-1">
        
@@ -140,7 +140,7 @@ function App() {
         
       </div> */}
       <div className="output px-3 border-bottom mx-1">
-      <button className='run' onClick={handleOutput}>run</button>
+      <button className='run' onClick={handleOutput}>Run</button>
         <iframe
         id='output'
         title="output"
