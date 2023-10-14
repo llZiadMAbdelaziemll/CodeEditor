@@ -15,8 +15,8 @@ function App() {
   return (
     <>
 
-      <div className="bg-primary text-light py-4 text-center">
-        <h1>HTML-CSS Playground</h1>
+      <div className="header text-light py-4 text-center">
+        <h1>Code-Editor</h1>
       </div>
 
       <Split  className="split mb-2"
@@ -139,8 +139,8 @@ function App() {
         </Tabs>
         
       </div> */}
-      <div className="p-3 border-bottom mx-1">
-      <button onClick={handleOutput}>run</button>
+      <div className="output px-3 border-bottom mx-1">
+      <button className='run' onClick={handleOutput}>run</button>
         <iframe
         id='output'
         title="output"
